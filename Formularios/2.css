@@ -1,0 +1,41 @@
+/* es la caja o mas bien el fondo */
+*{box-sizing:border-box;}
+
+/*  las dimensiones del fondo */
+div{
+	width:400px;
+	padding:11px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgb(144, 206, 137);
+}
+
+/* de aqui para abajo tiene que ver con botones, como el color de la letra, del relleno entre otros*/
+
+div button[type="text"]{
+	width: 200p;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+div button[type="submit"]{
+	width:80%;
+	padding:10px 18px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:300px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+div button[type="submit"]:hover{
+	cursor:pointer;
+}
+
+
+
