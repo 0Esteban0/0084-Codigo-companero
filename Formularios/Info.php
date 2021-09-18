@@ -142,12 +142,16 @@ if ($Pais == 'Colombia'){
   
 ?>
 <p> "Si su pedido no llega en el tiempo establecido por favor dele clic en reportar, de lo contrario seleccione recibido y recuerde subir una foto del pedido con su firma."</p>
-<p> Si algun dato quedo mal, seleccione cancelar y vuelva allenar los datos <p>
+<p> Si algun dato quedo mal, seleccione cancelar y vuelva allenar los datos, en adicion a esto tiene otros botones para que pueda desplazarse <p>
 
 <br><center>
         <button type="submit" onclick="location.href='https://api.whatsapp.com/send?phone=573012587069&text=Hola, Nececito reportar mi pedido'"> reportar</button> 
         <button type="submit" onclick="location.href='https://api.whatsapp.com/send?phone=573012587069&text=Hola, ya recibi mi pedido y adjuntare foto '"> Recibido </button>
-        <button type="submit" onclick="location.href='http://localhost:81/Formularios/0080.php'"> Cancelar </button></center>
+        <button type="submit" onclick="location.href='http://localhost:81/Formularios/0080.php'"> Cancelar </button>
+        <button type="submit" onclick="location.href='http://localhost:81/0080_PHP/Proyecto/Banco.php'"> Ir al banco </button>
+        <button type="submit" onclick="location.href='http://localhost:81/Formularios/HOME/Home.html'"> Ir a la tienda </button>
+        <button type="submit" onclick="location.href='http://localhost:81/0080_PHP/Registro.php'"> Reistrese o inice sesion </button>
+      </center>
 </div>
 </body> 
   </html>
